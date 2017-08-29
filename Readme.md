@@ -31,9 +31,7 @@ Frontend is implemented with [React](https://facebook.github.io/react/). It is c
 
 This project requires `Java 8` and [maven](http://maven.apache.org/) for building it.
 
-Frontend javascript codes are build with npm scripts. Maven is taking care of it with [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)
-
->Frontend inclusive build would take longer time. If you don't care about npm installation and build steps, switch to the branch `frontend-prebuild`.
+Frontend is already build in this branch and added to the folder structure of spring boot project.
 
 Execute following command to start build process
 ```
@@ -92,7 +90,7 @@ npm install
 
 run the spring boot with following command
 ```
-mvn spring-boot:run -Pdev
+mvn spring-boot:run
 ```
 
 then run the frontend server
